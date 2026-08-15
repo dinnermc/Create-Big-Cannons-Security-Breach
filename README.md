@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="src/main/resources/icon.png" alt="CBC: Security Breach Icon" width="180" />
+  <img src="src/main/resources/logo.png" alt="CBC: Security Breach Icon" width="180" />
 
   <h1>Create Big Cannons Security Breach</h1>
 
