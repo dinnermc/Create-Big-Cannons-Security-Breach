@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License" />
   </p>
 
-  <p>A bridge mod that lets Create Big Cannons projectiles damage Security Craft reinforced blocks..</p>
+  <p>A bridge mod that lets Create Big Cannons projectiles damage Security Craft reinforced blocks.</p>
 </div>
 
 ## Requirements
