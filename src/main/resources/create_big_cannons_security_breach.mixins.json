@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dinner.dev.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "create_big_cannons_security_breach.refmap.json",
+  "mixins": [
+    "CannonProjectileHitMixin",
+    "ShellExplosionMixin",
+    "ImpactExplosionMixin",
+    "MortarStoneExplosionMixin",
+    "ExplosionResistanceMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

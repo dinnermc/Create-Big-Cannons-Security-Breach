@@ -1,0 +1,101 @@
+{
+  "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach Konfiguration",
+
+  "create_big_cannons_security_breach.configuration.category.general": "Allgemein",
+  "create_big_cannons_security_breach.configuration.category.damage_decay": "Schadensabklingen",
+  "create_big_cannons_security_breach.configuration.category.material_hp": "Material-LP",
+  "create_big_cannons_security_breach.configuration.category.material_resistance": "Material-Widerstand",
+
+  "create_big_cannons_security_breach.configuration.enabled": "Aktiviert",
+  "create_big_cannons_security_breach.configuration.enabled.tooltip": "CBC-Schaden an Security Craft Blöcken aktivieren",
+
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier": "Explosionsschaden-Multiplikator",
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier.tooltip": "Globaler Multiplikator für Explosionsschaden an SC-Blöcken",
+
+  "create_big_cannons_security_breach.configuration.minExplosionPower": "Minimale Explosionsstärke",
+  "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "Minimale Explosionsstärke um SC-Blöcke zu beschädigen",
+
+  "create_big_cannons_security_breach.configuration.directHitMultiplier": "Direkttreffer-Multiplikator",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "Multiplikator für direkte Projektiltreffer (Vollkugel, Schrot)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled": "Schadensabklingen",
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "Allmähliches Abklingen von Schaden an SC-Blöcken aktivieren",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "Abklingintervall (Min)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "Minimale Ticks zwischen Rissstufenreduktion (20 Ticks = 1 Sekunde)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "Abklingintervall (Max)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "Maximale Ticks zwischen Rissstufenreduktion (20 Ticks = 1 Sekunde)",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "Glas-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "LP benötigt um verstärkte Glasblöcke zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp": "Pulver-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp.tooltip": "LP benötigt um verstärkten Sand/Kies/Erde zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp": "Holz-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp.tooltip": "LP benötigt um verstärkte Holzblöcke zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp": "Stein-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp.tooltip": "LP benötigt um verstärkten Stein/Ziegel/Terrakotta zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp": "Kupfer-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp.tooltip": "LP benötigt um verstärkte Kupferblöcke zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp": "Woll-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "LP benötigt um verstärkte Wolle/Teppiche zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp": "Eisen-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "LP benötigt um verstärkte Eisen/Gold-Blöcke zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "Stahl-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "LP benötigt um verstärkte Stahlblöcke zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp": "Diamant-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp.tooltip": "LP benötigt um verstärkte Diamant/Smaragd-Blöcke zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp": "Obsidian-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp.tooltip": "LP benötigt um verstärkte Obsidianblöcke zu brechen",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp": "Netherit-LP",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp.tooltip": "LP benötigt um verstärkte Netheritblöcke zu brechen",
+
+  "create_big_cannons_security_breach.configuration.fallbackHp": "Fallback-LP",
+  "create_big_cannons_security_breach.configuration.fallbackHp.tooltip": "Standard-LP für nicht erkannte SC-Blöcke",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance": "Glas-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance.tooltip": "Explosionswiderstand für verstärktes Glas",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance": "Pulver-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance.tooltip": "Explosionswiderstand für verstärkten Sand/Kies/Erde",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance": "Holz-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance.tooltip": "Explosionswiderstand für verstärktes Holz",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance": "Stein-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance.tooltip": "Explosionswiderstand für verstärkten Stein/Ziegel/Terrakotta",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance": "Kupfer-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance.tooltip": "Explosionswiderstand für verstärktes Kupfer",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance": "Woll-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "Explosionswiderstand für verstärkte Wolle/Teppiche",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "Eisen-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "Explosionswiderstand für verstärktes Eisen/Gold",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "Stahl-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "Explosionswiderstand für verstärkten Stahl",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance": "Diamant-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance.tooltip": "Explosionswiderstand für verstärkten Diamant/Smaragd",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance": "Obsidian-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance.tooltip": "Explosionswiderstand für verstärkten Obsidian",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance": "Netherit-Widerstand",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "Explosionswiderstand für verstärkten Netherit",
+
+  "create_big_cannons_security_breach.configuration.fallbackResistance": "Fallback-Widerstand",
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "Standard-Explosionswiderstand für nicht erkannte SC-Blöcke"
+}

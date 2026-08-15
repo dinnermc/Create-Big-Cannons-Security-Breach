@@ -1,0 +1,101 @@
+{
+  "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach Config",
+
+  "create_big_cannons_security_breach.configuration.category.general": "General",
+  "create_big_cannons_security_breach.configuration.category.damage_decay": "Damage Decay",
+  "create_big_cannons_security_breach.configuration.category.material_hp": "Material HP",
+  "create_big_cannons_security_breach.configuration.category.material_resistance": "Material Resistance",
+
+  "create_big_cannons_security_breach.configuration.enabled": "Enabled",
+  "create_big_cannons_security_breach.configuration.enabled.tooltip": "Enable CBC damage to Security Craft blocks globally",
+
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier": "Explosion Damage Multiplier",
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier.tooltip": "Global multiplier for explosive damage to SC blocks",
+
+  "create_big_cannons_security_breach.configuration.minExplosionPower": "Minimum Explosion Power",
+  "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "Minimum explosion power required to damage an SC block (higher = tighter radius)",
+
+  "create_big_cannons_security_breach.configuration.directHitMultiplier": "Direct Hit Multiplier",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "Global multiplier for direct projectile impact damage (solid shot, grapeshot)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled": "Damage Decay Enabled",
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "Enable gradual decay of accumulated damage on SC blocks over time",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "Damage Decay Interval (Min)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "Minimum ticks between crack stage reductions (20 ticks = 1 second)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "Damage Decay Interval (Max)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "Maximum ticks between crack stage reductions (20 ticks = 1 second)",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "Glass HP",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "HP required to break reinforced glass blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp": "Powder HP",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp.tooltip": "HP required to break reinforced sand / gravel / dirt blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp": "Wood HP",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp.tooltip": "HP required to break reinforced wood blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp": "Stone HP",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp.tooltip": "HP required to break reinforced stone / brick / terracotta blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp": "Copper HP",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp.tooltip": "HP required to break reinforced copper blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp": "Wool HP",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "HP required to break reinforced wool / carpet blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp": "Iron HP",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "HP required to break reinforced iron / gold blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "Steel HP",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "HP required to break reinforced steel blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp": "Diamond HP",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp.tooltip": "HP required to break reinforced diamond / emerald blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp": "Obsidian HP",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp.tooltip": "HP required to break reinforced obsidian blocks",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp": "Netherite HP",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp.tooltip": "HP required to break reinforced netherite blocks",
+
+  "create_big_cannons_security_breach.configuration.fallbackHp": "Fallback HP",
+  "create_big_cannons_security_breach.configuration.fallbackHp.tooltip": "Fallback HP for any unrecognized SC block",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance": "Glass Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance.tooltip": "Explosion resistance for reinforced glass",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance": "Powder Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance.tooltip": "Explosion resistance for reinforced sand / gravel / dirt",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance": "Wood Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance.tooltip": "Explosion resistance for reinforced wood",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance": "Stone Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance.tooltip": "Explosion resistance for reinforced stone / brick / terracotta",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance": "Copper Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance.tooltip": "Explosion resistance for reinforced copper",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance": "Wool Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "Explosion resistance for reinforced wool / carpet",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "Iron Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "Explosion resistance for reinforced iron / gold",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "Steel Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "Explosion resistance for reinforced steel",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance": "Diamond Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance.tooltip": "Explosion resistance for reinforced diamond / emerald",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance": "Obsidian Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance.tooltip": "Explosion resistance for reinforced obsidian",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance": "Netherite Resistance",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "Explosion resistance for reinforced netherite",
+
+  "create_big_cannons_security_breach.configuration.fallbackResistance": "Fallback Resistance",
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "Fallback explosion resistance for any unrecognized SC block"
+}

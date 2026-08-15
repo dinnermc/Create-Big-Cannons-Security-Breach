@@ -1,0 +1,101 @@
+{
+  "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach Configuration",
+
+  "create_big_cannons_security_breach.configuration.category.general": "Général",
+  "create_big_cannons_security_breach.configuration.category.damage_decay": "Régénération des dégâts",
+  "create_big_cannons_security_breach.configuration.category.material_hp": "PV des matériaux",
+  "create_big_cannons_security_breach.configuration.category.material_resistance": "Résistance des matériaux",
+
+  "create_big_cannons_security_breach.configuration.enabled": "Activé",
+  "create_big_cannons_security_breach.configuration.enabled.tooltip": "Activer les dégâts CBC sur les blocs Security Craft",
+
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier": "Multiplicateur dégâts explosifs",
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier.tooltip": "Multiplicateur global des dégâts explosifs sur les blocs SC",
+
+  "create_big_cannons_security_breach.configuration.minExplosionPower": "Puissance explosive minimale",
+  "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "Puissance minimale requise pour endommager un bloc SC",
+
+  "create_big_cannons_security_breach.configuration.directHitMultiplier": "Multiplicateur impact direct",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "Multiplicateur global pour les impacts directs (boulet, mitraille)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled": "Régénération des dégâts",
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "Activer la régénération progressive des dégâts sur les blocs SC",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "Intervalle régénération (min)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "Ticks minimum entre réductions de fissure (20 ticks = 1 seconde)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "Intervalle régénération (max)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "Ticks maximum entre réductions de fissure (20 ticks = 1 seconde)",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "PV du verre",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "PV requis pour briser les blocs de verre renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp": "PV des poudres",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp.tooltip": "PV requis pour briser le sable/gravier/terre renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp": "PV du bois",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp.tooltip": "PV requis pour briser les blocs de bois renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp": "PV de la pierre",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp.tooltip": "PV requis pour briser la pierre/brique/terre cuite renforcée",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp": "PV du cuivre",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp.tooltip": "PV requis pour briser les blocs de cuivre renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp": "PV de la laine",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "PV requis pour briser la laine/tapis renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp": "PV du fer",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "PV requis pour briser les blocs de fer/or renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "PV de l'acier",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "PV requis pour briser les blocs d'acier renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp": "PV du diamant",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp.tooltip": "PV requis pour briser les blocs de diamant/émeraude renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp": "PV de l'obsidienne",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp.tooltip": "PV requis pour briser les blocs d'obsidienne renforcée",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp": "PV de la netherite",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp.tooltip": "PV requis pour briser les blocs de netherite renforcée",
+
+  "create_big_cannons_security_breach.configuration.fallbackHp": "PV par défaut",
+  "create_big_cannons_security_breach.configuration.fallbackHp.tooltip": "PV par défaut pour les blocs SC non reconnus",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance": "Résistance du verre",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance.tooltip": "Résistance aux explosions pour le verre renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance": "Résistance des poudres",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance.tooltip": "Résistance aux explosions pour le sable/gravier/terre renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance": "Résistance du bois",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance.tooltip": "Résistance aux explosions pour le bois renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance": "Résistance de la pierre",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance.tooltip": "Résistance aux explosions pour la pierre/brique/terre cuite renforcée",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance": "Résistance du cuivre",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance.tooltip": "Résistance aux explosions pour le cuivre renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance": "Résistance de la laine",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "Résistance aux explosions pour la laine/tapis renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "Résistance du fer",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "Résistance aux explosions pour le fer/or renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "Résistance de l'acier",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "Résistance aux explosions pour l'acier renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance": "Résistance du diamant",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance.tooltip": "Résistance aux explosions pour le diamant/émeraude renforcé",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance": "Résistance de l'obsidienne",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance.tooltip": "Résistance aux explosions pour l'obsidienne renforcée",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance": "Résistance de la netherite",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "Résistance aux explosions pour la netherite renforcée",
+
+  "create_big_cannons_security_breach.configuration.fallbackResistance": "Résistance par défaut",
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "Résistance par défaut pour les blocs SC non reconnus"
+}

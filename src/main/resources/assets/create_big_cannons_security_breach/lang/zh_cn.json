@@ -1,0 +1,101 @@
+{
+  "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach 配置",
+
+  "create_big_cannons_security_breach.configuration.category.general": "常规",
+  "create_big_cannons_security_breach.configuration.category.damage_decay": "伤害衰减",
+  "create_big_cannons_security_breach.configuration.category.material_hp": "材料生命值",
+  "create_big_cannons_security_breach.configuration.category.material_resistance": "材料抗爆性",
+
+  "create_big_cannons_security_breach.configuration.enabled": "启用",
+  "create_big_cannons_security_breach.configuration.enabled.tooltip": "全局启用 CBC 对 Security Craft 方块的伤害",
+
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier": "爆炸伤害倍率",
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier.tooltip": "对 SC 方块爆炸伤害的全局倍率",
+
+  "create_big_cannons_security_breach.configuration.minExplosionPower": "最小爆炸威力",
+  "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "对 SC 方块造成伤害所需的最小爆炸威力（越高 = 范围越紧）",
+
+  "create_big_cannons_security_breach.configuration.directHitMultiplier": "直接命中倍率",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "直接弹丸撞击伤害的全局倍率（实心弹、葡萄弹）",
+
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled": "伤害衰减",
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "启用 SC 方块累积伤害随时间逐渐衰减",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "衰减间隔（最小）",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "裂纹等级降低的最小刻数（20刻 = 1秒）",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "衰减间隔（最大）",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "裂纹等级降低的最大刻数（20刻 = 1秒）",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "玻璃生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "摧毁强化玻璃方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp": "粉末类生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp.tooltip": "摧毁强化沙/砾石/土方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp": "木质生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp.tooltip": "摧毁强化木质方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp": "石质生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp.tooltip": "摧毁强化石/砖/陶瓦方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp": "铜质生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp.tooltip": "摧毁强化铜方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp": "羊毛生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "摧毁强化羊毛/地毯所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp": "铁质生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "摧毁强化铁/金方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "钢质生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "摧毁强化钢方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp": "钻石生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp.tooltip": "摧毁强化钻石/绿宝石方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp": "黑曜石生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp.tooltip": "摧毁强化黑曜石方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp": "下界合金生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp.tooltip": "摧毁强化下界合金方块所需的生命值",
+
+  "create_big_cannons_security_breach.configuration.fallbackHp": "默认生命值",
+  "create_big_cannons_security_breach.configuration.fallbackHp.tooltip": "未识别 SC 方块的默认生命值",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance": "玻璃抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance.tooltip": "强化玻璃的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance": "粉末类抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance.tooltip": "强化沙/砾石/土的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance": "木质抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance.tooltip": "强化木质的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance": "石质抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance.tooltip": "强化石/砖/陶瓦的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance": "铜质抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance.tooltip": "强化铜的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance": "羊毛抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "强化羊毛/地毯的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "铁质抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "强化铁/金的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "钢质抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "强化钢的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance": "钻石抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance.tooltip": "强化钻石/绿宝石的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance": "黑曜石抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance.tooltip": "强化黑曜石的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance": "下界合金抗爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "强化下界合金的爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.fallbackResistance": "默认抗爆性",
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "未识别 SC 方块的默认爆炸抗性"
+}

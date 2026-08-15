@@ -1,0 +1,101 @@
+{
+  "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach Настройки",
+
+  "create_big_cannons_security_breach.configuration.category.general": "Общие",
+  "create_big_cannons_security_breach.configuration.category.damage_decay": "Восстановление",
+  "create_big_cannons_security_breach.configuration.category.material_hp": "HP материалов",
+  "create_big_cannons_security_breach.configuration.category.material_resistance": "Сопротивление материалов",
+
+  "create_big_cannons_security_breach.configuration.enabled": "Включено",
+  "create_big_cannons_security_breach.configuration.enabled.tooltip": "Глобальное включение урона CBC по блокам Security Craft",
+
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier": "Множитель урона взрыва",
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier.tooltip": "Глобальный множитель урона взрывов по блокам SC",
+
+  "create_big_cannons_security_breach.configuration.minExplosionPower": "Мин. сила взрыва",
+  "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "Минимальная сила взрыва для повреждения блоков SC",
+
+  "create_big_cannons_security_breach.configuration.directHitMultiplier": "Множитель прямого попадания",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "Множитель урона при прямом попадании снаряда (ядро, картечь)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled": "Восстановление повреждений",
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "Постепенное восстановление накопленного урона на блоках SC",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "Интервал восстановления (мин)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "Мин. тиков между снижением уровня трещин (20 тиков = 1 сек)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "Интервал восстановления (макс)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "Макс. тиков между снижением уровня трещин (20 тиков = 1 сек)",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "HP стекла",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "HP для разрушения укреплённого стекла",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp": "HP сыпучих",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp.tooltip": "HP для разрушения укреплённого песка/гравия/земли",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp": "HP дерева",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp.tooltip": "HP для разрушения укреплённых деревянных блоков",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp": "HP камня",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp.tooltip": "HP для разрушения укреплённого камня/кирпича/терракоты",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp": "HP меди",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp.tooltip": "HP для разрушения укреплённых медных блоков",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp": "HP шерсти",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "HP для разрушения укреплённой шерсти/ковров",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp": "HP железа",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "HP для разрушения укреплённых блоков железа/золота",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "HP стали",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "HP для разрушения укреплённых стальных блоков",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp": "HP алмаза",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp.tooltip": "HP для разрушения укреплённых блоков алмаза/изумруда",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp": "HP обсидиана",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp.tooltip": "HP для разрушения укреплённого обсидиана",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp": "HP незерита",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp.tooltip": "HP для разрушения укреплённого незерита",
+
+  "create_big_cannons_security_breach.configuration.fallbackHp": "HP по умолчанию",
+  "create_big_cannons_security_breach.configuration.fallbackHp.tooltip": "HP по умолчанию для неопознанных блоков SC",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance": "Сопр. стекла",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance.tooltip": "Взрывоустойчивость укреплённого стекла",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance": "Сопр. сыпучих",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance.tooltip": "Взрывоустойчивость укреплённого песка/гравия/земли",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance": "Сопр. дерева",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance.tooltip": "Взрывоустойчивость укреплённого дерева",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance": "Сопр. камня",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance.tooltip": "Взрывоустойчивость укреплённого камня/кирпича/терракоты",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance": "Сопр. меди",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance.tooltip": "Взрывоустойчивость укреплённой меди",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance": "Сопр. шерсти",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "Взрывоустойчивость укреплённой шерсти/ковров",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "Сопр. железа",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "Взрывоустойчивость укреплённого железа/золота",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "Сопр. стали",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "Взрывоустойчивость укреплённой стали",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance": "Сопр. алмаза",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance.tooltip": "Взрывоустойчивость укреплённого алмаза/изумруда",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance": "Сопр. обсидиана",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance.tooltip": "Взрывоустойчивость укреплённого обсидиана",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance": "Сопр. незерита",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "Взрывоустойчивость укреплённого незерита",
+
+  "create_big_cannons_security_breach.configuration.fallbackResistance": "Сопр. по умолчанию",
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "Взрывоустойчивость по умолчанию для неопознанных блоков SC"
+}

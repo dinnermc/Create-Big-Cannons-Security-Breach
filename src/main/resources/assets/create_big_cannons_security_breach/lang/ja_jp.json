@@ -1,0 +1,101 @@
+{
+  "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach 設定",
+
+  "create_big_cannons_security_breach.configuration.category.general": "一般",
+  "create_big_cannons_security_breach.configuration.category.damage_decay": "ダメージ減衰",
+  "create_big_cannons_security_breach.configuration.category.material_hp": "素材HP",
+  "create_big_cannons_security_breach.configuration.category.material_resistance": "素材耐爆性",
+
+  "create_big_cannons_security_breach.configuration.enabled": "有効",
+  "create_big_cannons_security_breach.configuration.enabled.tooltip": "CBCがSecurity Craftブロックに与えるダメージをグローバルに有効化",
+
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier": "爆発ダメージ倍率",
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier.tooltip": "SCブロックへの爆発ダメージのグローバル倍率",
+
+  "create_big_cannons_security_breach.configuration.minExplosionPower": "最小爆発威力",
+  "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "SCブロックにダメージを与える最小爆発威力（高いほど狭い範囲）",
+
+  "create_big_cannons_security_breach.configuration.directHitMultiplier": "直撃倍率",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "直接発射体衝撃ダメージのグローバル倍率（実体弾、グレープショット）",
+
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled": "ダメージ減衰",
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "SCブロックの蓄積ダメージが時間とともに徐々に減衰するのを有効化",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "減衰間隔（最小）",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "ひび割れ段階減少間の最小ティック数（20ティック = 1秒）",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "減衰間隔（最大）",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "ひび割れ段階減少間の最大ティック数（20ティック = 1秒）",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "ガラスのHP",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "強化ガラスブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp": "粉体のHP",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp.tooltip": "強化砂/砂利/土ブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp": "木材のHP",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp.tooltip": "強化木材ブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp": "石のHP",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp.tooltip": "強化石/レンガ/テラコッタブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp": "銅のHP",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp.tooltip": "強化銅ブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp": "羊毛のHP",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "強化羊毛/カーペットを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp": "鉄のHP",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "強化鉄/金ブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "鋼のHP",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "強化鋼ブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp": "ダイヤモンドのHP",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp.tooltip": "強化ダイヤモンド/エメラルドブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp": "黒曜石のHP",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp.tooltip": "強化黒曜石ブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp": "ネザライトのHP",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp.tooltip": "強化ネザライトブロックを破壊するのに必要なHP",
+
+  "create_big_cannons_security_breach.configuration.fallbackHp": "デフォルトHP",
+  "create_big_cannons_security_breach.configuration.fallbackHp.tooltip": "未認識SCブロックのデフォルトHP",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance": "ガラスの耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance.tooltip": "強化ガラスの爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance": "粉体の耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance.tooltip": "強化砂/砂利/土の爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance": "木材の耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance.tooltip": "強化木材の爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance": "石の耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance.tooltip": "強化石/レンガ/テラコッタの爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance": "銅の耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance.tooltip": "強化銅の爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance": "羊毛の耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "強化羊毛/カーペットの爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "鉄の耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "強化鉄/金の爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "鋼の耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "強化鋼の爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance": "ダイヤモンドの耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance.tooltip": "強化ダイヤモンド/エメラルドの爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance": "黒曜石の耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance.tooltip": "強化黒曜石の爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance": "ネザライトの耐爆性",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "強化ネザライトの爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.fallbackResistance": "デフォルト耐爆性",
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "未認識SCブロックのデフォルト爆発耐性"
+}

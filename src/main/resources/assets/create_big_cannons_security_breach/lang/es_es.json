@@ -1,0 +1,101 @@
+{
+  "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach Configuración",
+
+  "create_big_cannons_security_breach.configuration.category.general": "General",
+  "create_big_cannons_security_breach.configuration.category.damage_decay": "Regeneración de daño",
+  "create_big_cannons_security_breach.configuration.category.material_hp": "Vida de materiales",
+  "create_big_cannons_security_breach.configuration.category.material_resistance": "Resistencia de materiales",
+
+  "create_big_cannons_security_breach.configuration.enabled": "Activado",
+  "create_big_cannons_security_breach.configuration.enabled.tooltip": "Activar daño de CBC a bloques de Security Craft",
+
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier": "Multiplicador de daño explosivo",
+  "create_big_cannons_security_breach.configuration.explosionDamageMultiplier.tooltip": "Multiplicador global de daño explosivo a bloques SC",
+
+  "create_big_cannons_security_breach.configuration.minExplosionPower": "Potencia mínima de explosión",
+  "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "Potencia mínima de explosión para dañar un bloque SC (mayor = radio más ajustado)",
+
+  "create_big_cannons_security_breach.configuration.directHitMultiplier": "Multiplicador de impacto directo",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "Multiplicador global para daño de impacto directo (bala sólida, metralla)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled": "Regeneración de daño",
+  "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "Activar la regeneración gradual del daño acumulado en bloques SC",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "Intervalo de regeneración (mín)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "Ticks mínimos entre reducciones de grieta (20 ticks = 1 segundo)",
+
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "Intervalo de regeneración (máx)",
+  "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "Ticks máximos entre reducciones de grieta (20 ticks = 1 segundo)",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "Vida del vidrio",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "Vida necesaria para romper bloques de vidrio reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp": "Vida de polvo",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderHp.tooltip": "Vida necesaria para romper arena/grava/tierra reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp": "Vida de madera",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodHp.tooltip": "Vida necesaria para romper bloques de madera reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp": "Vida de piedra",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneHp.tooltip": "Vida necesaria para romper piedra/ladrillo/terracota reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp": "Vida de cobre",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperHp.tooltip": "Vida necesaria para romper bloques de cobre reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp": "Vida de lana",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "Vida necesaria para romper lana/alfombra reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp": "Vida de hierro",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "Vida necesaria para romper bloques de hierro/oro reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "Vida de acero",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "Vida necesaria para romper bloques de acero reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp": "Vida de diamante",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondHp.tooltip": "Vida necesaria para romper bloques de diamante/esmeralda reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp": "Vida de obsidiana",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianHp.tooltip": "Vida necesaria para romper bloques de obsidiana reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp": "Vida de netherita",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteHp.tooltip": "Vida necesaria para romper bloques de netherita reforzada",
+
+  "create_big_cannons_security_breach.configuration.fallbackHp": "Vida por defecto",
+  "create_big_cannons_security_breach.configuration.fallbackHp.tooltip": "Vida por defecto para bloques SC no reconocidos",
+
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance": "Resistencia del vidrio",
+  "create_big_cannons_security_breach.configuration.reinforcedGlassResistance.tooltip": "Resistencia a explosiones para vidrio reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance": "Resistencia de polvo",
+  "create_big_cannons_security_breach.configuration.reinforcedPowderResistance.tooltip": "Resistencia a explosiones para arena/grava/tierra reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance": "Resistencia de madera",
+  "create_big_cannons_security_breach.configuration.reinforcedWoodResistance.tooltip": "Resistencia a explosiones para madera reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance": "Resistencia de piedra",
+  "create_big_cannons_security_breach.configuration.reinforcedStoneResistance.tooltip": "Resistencia a explosiones para piedra/ladrillo/terracota reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance": "Resistencia de cobre",
+  "create_big_cannons_security_breach.configuration.reinforcedCopperResistance.tooltip": "Resistencia a explosiones para cobre reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance": "Resistencia de lana",
+  "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "Resistencia a explosiones para lana/alfombra reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "Resistencia de hierro",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "Resistencia a explosiones para hierro/oro reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "Resistencia de acero",
+  "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "Resistencia a explosiones para acero reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance": "Resistencia de diamante",
+  "create_big_cannons_security_breach.configuration.reinforcedDiamondResistance.tooltip": "Resistencia a explosiones para diamante/esmeralda reforzado",
+
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance": "Resistencia de obsidiana",
+  "create_big_cannons_security_breach.configuration.reinforcedObsidianResistance.tooltip": "Resistencia a explosiones para obsidiana reforzada",
+
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance": "Resistencia de netherita",
+  "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "Resistencia a explosiones para netherita reforzada",
+
+  "create_big_cannons_security_breach.configuration.fallbackResistance": "Resistencia por defecto",
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "Resistencia a explosiones por defecto para bloques SC no reconocidos"
+}
