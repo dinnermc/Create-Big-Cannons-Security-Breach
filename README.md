@@ -1,6 +1,18 @@
-# Create Big Cannons Security Breach
+<div align="center">
+  <img src="src/main/resources/icon.png" alt="CBC: Security Breach Icon" width="180" />
 
-A NeoForge bridge mod that lets Create Big Cannons projectiles damage Security Craft reinforced blocks.
+  <h1>Create Big Cannons Security Breach</h1>
+
+  <p>
+    <a href="https://modrinth.com/mod/create-big-cannons-security-breach">
+      <img src="https://img.shields.io/modrinth/dt/create-big-cannons-security-breach?logo=modrinth&label=Downloads&style=flat&color=242629&labelColor=5CA424&logoColor=fff" alt="Modrinth Downloads" />
+    </a>
+    <img src="https://img.shields.io/badge/Minecraft-1.21.1-brightgreen?logo=minecraft" alt="Minecraft Version" />
+    <img src="https://img.shields.io/badge/Loader-NeoForge-orange" alt="NeoForge" />
+  </p>
+
+  <p>A bridge mod that lets Create Big Cannons projectiles damage Security Craft reinforced blocks..</p>
+</div>
 
 ## Requirements
 
@@ -41,16 +53,6 @@ The config file is created at `config/create_big_cannons_security_breach-server.
 - `damage_decay` - crack healing interval (in ticks) and whether it is enabled.
 - `material_hp` - HP for each material group and the fallback value.
 - `material_resistance` - explosion resistance for each material group and the fallback value.
-
-## Building
-
-Requires Java 21 and an internet connection for first run.
-
-```
-./gradlew build
-```
-
-The jar is written to `build/libs/create_big_cannons_security_breach-1.0.jar`.
 
 ## License
 
