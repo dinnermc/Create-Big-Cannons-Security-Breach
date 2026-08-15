@@ -12,17 +12,16 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(Block.class)
 public class ExplosionResistanceMixin {
 
-    private static final float[] CACHE_OUT = new float[1];
-
     @Inject(method = "getExplosionResistance()F", at = @At("RETURN"), cancellable = true)
     private void cbcSecurityBreach$overrideResistance(CallbackInfoReturnable<Float> cir) {
         if (!Config.enabled) return;
 
         Block self = (Block) (Object) this;
 
-        if (Config.tryGetCachedResistance(self, CACHE_OUT)) {
-            if (!Float.isNaN(CACHE_OUT[0])) {
-                cir.setReturnValue(CACHE_OUT[0]);
+        Float cached = Config.getCachedResistance(self);
+        if (cached != null) {
+            if (!cached.isNaN()) {
+                cir.setReturnValue(cached);
             }
             return;
         }
