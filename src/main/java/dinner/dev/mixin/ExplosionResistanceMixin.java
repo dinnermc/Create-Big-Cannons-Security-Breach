@@ -1,6 +1,7 @@
 package dinner.dev.mixin;
 
 import dinner.dev.Config;
+import dinner.dev.compat.SecurityCraftCompat;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
@@ -14,7 +15,7 @@ public class ExplosionResistanceMixin {
 
     @Inject(method = "getExplosionResistance()F", at = @At("RETURN"), cancellable = true)
     private void cbcSecurityBreach$overrideResistance(CallbackInfoReturnable<Float> cir) {
-        if (!Config.enabled) return;
+        if (!Config.enabled || !Config.overrideExplosionResistance) return;
 
         Block self = (Block) (Object) this;
 
@@ -26,8 +27,8 @@ public class ExplosionResistanceMixin {
             return;
         }
 
-        ResourceLocation blockId = BuiltInRegistries.BLOCK.getKey(self);
-        if ("securitycraft".equals(blockId.getNamespace())) {
+        if (SecurityCraftCompat.isTargetableBlock(self)) {
+            ResourceLocation blockId = BuiltInRegistries.BLOCK.getKey(self);
             float resistance = (float) Config.getBlockResistance(blockId.getPath());
             Config.cacheResistance(self, resistance);
             cir.setReturnValue(resistance);

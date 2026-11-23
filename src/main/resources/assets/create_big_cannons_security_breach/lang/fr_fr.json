@@ -2,9 +2,13 @@
   "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach Configuration",
 
   "create_big_cannons_security_breach.configuration.category.general": "Général",
+  "create_big_cannons_security_breach.configuration.category.munition_multipliers": "Multiplicateurs de munitions",
   "create_big_cannons_security_breach.configuration.category.damage_decay": "Régénération des dégâts",
+  "create_big_cannons_security_breach.configuration.category.repair": "Réparation manuelle",
+  "create_big_cannons_security_breach.configuration.category.feedback": "Effets et ATH",
   "create_big_cannons_security_breach.configuration.category.material_hp": "PV des matériaux",
   "create_big_cannons_security_breach.configuration.category.material_resistance": "Résistance des matériaux",
+  "create_big_cannons_security_breach.configuration.category.overrides": "Personnalisation et liste noire",
 
   "create_big_cannons_security_breach.configuration.enabled": "Activé",
   "create_big_cannons_security_breach.configuration.enabled.tooltip": "Activer les dégâts CBC sur les blocs Security Craft",
@@ -16,16 +20,82 @@
   "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "Puissance minimale requise pour endommager un bloc SC",
 
   "create_big_cannons_security_breach.configuration.directHitMultiplier": "Multiplicateur impact direct",
-  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "Multiplicateur global pour les impacts directs (boulet, mitraille)",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "Multiplicateur global pour les impacts directs (boulet, AP, autocanon, mitraille)",
+
+  "create_big_cannons_security_breach.configuration.dropBlocksOnBreak": "Lâcher les blocs détruits",
+  "create_big_cannons_security_breach.configuration.dropBlocksOnBreak.tooltip": "Si les blocs Security Craft détruits lâchent leur objet (désactiver pour PvP style Rust)",
+
+  "create_big_cannons_security_breach.configuration.affectOwnableMachines": "Affecter les machines protégées",
+  "create_big_cannons_security_breach.configuration.affectOwnableMachines.tooltip": "Autoriser les dégâts sur les blocs fonctionnels Security Craft (claviers, scanners, portes, etc.)",
+
+  "create_big_cannons_security_breach.configuration.overrideExplosionResistance": "Remplacer résistance aux explosions",
+  "create_big_cannons_security_breach.configuration.overrideExplosionResistance.tooltip": "Remplace la résistance pour l'inspection de blindage CBC (désactiver avec des mods nucléaires)",
+
+  "create_big_cannons_security_breach.configuration.heShellMultiplier": "Multiplicateur obus HE",
+  "create_big_cannons_security_breach.configuration.heShellMultiplier.tooltip": "Multiplicateur de dégâts pour les obus explosifs (HE)",
+
+  "create_big_cannons_security_breach.configuration.apShellMultiplier": "Multiplicateur obus AP",
+  "create_big_cannons_security_breach.configuration.apShellMultiplier.tooltip": "Multiplicateur de dégâts pour les obus perforants (AP Shell)",
+
+  "create_big_cannons_security_breach.configuration.apShotMultiplier": "Multiplicateur boulet AP",
+  "create_big_cannons_security_breach.configuration.apShotMultiplier.tooltip": "Multiplicateur de dégâts pour les boulets perforants (AP Shot)",
+
+  "create_big_cannons_security_breach.configuration.solidShotMultiplier": "Multiplicateur boulet plein",
+  "create_big_cannons_security_breach.configuration.solidShotMultiplier.tooltip": "Multiplicateur de dégâts pour les boulets pleins standard",
+
+  "create_big_cannons_security_breach.configuration.mortarStoneMultiplier": "Multiplicateur pierre de mortier",
+  "create_big_cannons_security_breach.configuration.mortarStoneMultiplier.tooltip": "Multiplicateur de dégâts pour les pierres de mortier",
+
+  "create_big_cannons_security_breach.configuration.dropMortarMultiplier": "Multiplicateur mortier léger",
+  "create_big_cannons_security_breach.configuration.dropMortarMultiplier.tooltip": "Multiplicateur de dégâts pour les obus de Drop Mortar",
+
+  "create_big_cannons_security_breach.configuration.autocannonMultiplier": "Multiplicateur autocanon",
+  "create_big_cannons_security_breach.configuration.autocannonMultiplier.tooltip": "Multiplicateur de dégâts pour les munitions d'autocanon (AP, Flak, mitrailleuse)",
+
+  "create_big_cannons_security_breach.configuration.shrapnelMultiplier": "Multiplicateur mitraille / shrapnel",
+  "create_big_cannons_security_breach.configuration.shrapnelMultiplier.tooltip": "Multiplicateur de dégâts pour les sous-projectiles de mitraille, shrapnel et Flak",
 
   "create_big_cannons_security_breach.configuration.damageDecayEnabled": "Régénération des dégâts",
   "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "Activer la régénération progressive des dégâts sur les blocs SC",
+
+  "create_big_cannons_security_breach.configuration.decayGracePeriodTicks": "Délai avant régénération (ticks)",
+  "create_big_cannons_security_breach.configuration.decayGracePeriodTicks.tooltip": "Ticks sans impact avant le début de la régénération automatique (20 ticks = 1 seconde)",
 
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "Intervalle régénération (min)",
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "Ticks minimum entre réductions de fissure (20 ticks = 1 seconde)",
 
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "Intervalle régénération (max)",
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "Ticks maximum entre réductions de fissure (20 ticks = 1 seconde)",
+
+  "create_big_cannons_security_breach.configuration.decayPercentPerStep": "Pourcentage soigné par cycle",
+  "create_big_cannons_security_breach.configuration.decayPercentPerStep.tooltip": "Fraction des PV max restaurée à chaque cycle de régénération (0.05 = 5%)",
+
+  "create_big_cannons_security_breach.configuration.repairEnabled": "Réparation manuelle activée",
+  "create_big_cannons_security_breach.configuration.repairEnabled.tooltip": "Permet de réparer les blocs SC endommagés via Maj + Clic droit avec un objet de réparation",
+
+  "create_big_cannons_security_breach.configuration.repairOwnerOnly": "Réparation réservée au propriétaire",
+  "create_big_cannons_security_breach.configuration.repairOwnerOnly.tooltip": "Limite la réparation manuelle au propriétaire du bloc (Créatif/OP toujours autorisé)",
+
+  "create_big_cannons_security_breach.configuration.repairAmountPerClick": "PV réparés par clic",
+  "create_big_cannons_security_breach.configuration.repairAmountPerClick.tooltip": "PV restaurés à chaque action de réparation",
+
+  "create_big_cannons_security_breach.configuration.repairCooldownTicks": "Temps de recharge réparation (ticks)",
+  "create_big_cannons_security_breach.configuration.repairCooldownTicks.tooltip": "Ticks minimum entre deux réparations par joueur (20 ticks = 1 seconde)",
+
+  "create_big_cannons_security_breach.configuration.repairItems": "Objets de réparation",
+  "create_big_cannons_security_breach.configuration.repairItems.tooltip": "IDs d'objets autorisés pour réparer les blocs SC (ex. create:wrench)",
+
+  "create_big_cannons_security_breach.configuration.consumeRepairItem": "Consommer l'objet de réparation",
+  "create_big_cannons_security_breach.configuration.consumeRepairItem.tooltip": "Consomme 1 objet (ou 1 durabilité si outil) par réparation",
+
+  "create_big_cannons_security_breach.configuration.gogglesHudEnabled": "ATH des lunettes Create",
+  "create_big_cannons_security_breach.configuration.gogglesHudEnabled.tooltip": "Affiche les PV et l'intégrité du bloc avec les Engineer's Goggles de Create",
+
+  "create_big_cannons_security_breach.configuration.impactParticlesEnabled": "Particules d'impact",
+  "create_big_cannons_security_breach.configuration.impactParticlesEnabled.tooltip": "Affiche des particules d'impact et de rupture sur les blocs SC touchés",
+
+  "create_big_cannons_security_breach.configuration.impactSoundsEnabled": "Sons d'impact",
+  "create_big_cannons_security_breach.configuration.impactSoundsEnabled.tooltip": "Joue des effets sonores lors des impacts et ruptures de blocs SC",
 
   "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "PV du verre",
   "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "PV requis pour briser les blocs de verre renforcé",
@@ -46,7 +116,7 @@
   "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "PV requis pour briser la laine/tapis renforcé",
 
   "create_big_cannons_security_breach.configuration.reinforcedIronHp": "PV du fer",
-  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "PV requis pour briser les blocs de fer/or renforcé",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "PV requis pour briser les blocs de fer/or/portes renforcés",
 
   "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "PV de l'acier",
   "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "PV requis pour briser les blocs d'acier renforcé",
@@ -82,7 +152,7 @@
   "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "Résistance aux explosions pour la laine/tapis renforcé",
 
   "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "Résistance du fer",
-  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "Résistance aux explosions pour le fer/or renforcé",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "Résistance aux explosions pour le fer/or/portes renforcés",
 
   "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "Résistance de l'acier",
   "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "Résistance aux explosions pour l'acier renforcé",
@@ -97,5 +167,42 @@
   "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "Résistance aux explosions pour la netherite renforcée",
 
   "create_big_cannons_security_breach.configuration.fallbackResistance": "Résistance par défaut",
-  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "Résistance par défaut pour les blocs SC non reconnus"
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "Résistance par défaut pour les blocs SC non reconnus",
+
+  "create_big_cannons_security_breach.configuration.customBlockHp": "PV personnalisés par bloc",
+  "create_big_cannons_security_breach.configuration.customBlockHp.tooltip": "Remplacements de PV par bloc au format 'modid:block_id=hp'",
+
+  "create_big_cannons_security_breach.configuration.blacklistedBlocks": "Blocs sur liste noire",
+  "create_big_cannons_security_breach.configuration.blacklistedBlocks.tooltip": "IDs de blocs qui ne peuvent jamais être endommagés par les canons",
+
+  "create_big_cannons_security_breach.hud.integrity": "Intégrité : %s / %s PV (%s%%)",
+  "create_big_cannons_security_breach.hud.material": "Matériau : %s",
+  "create_big_cannons_security_breach.hud.owner": "Propriétaire : %s",
+  "create_big_cannons_security_breach.hud.repair_hint": "Maj + Clic droit pour réparer",
+
+  "create_big_cannons_security_breach.material.glass": "Verre",
+  "create_big_cannons_security_breach.material.powder": "Poudre",
+  "create_big_cannons_security_breach.material.wool": "Laine",
+  "create_big_cannons_security_breach.material.wood": "Bois",
+  "create_big_cannons_security_breach.material.stone": "Pierre",
+  "create_big_cannons_security_breach.material.copper": "Cuivre",
+  "create_big_cannons_security_breach.material.iron": "Fer",
+  "create_big_cannons_security_breach.material.diamond": "Diamant",
+  "create_big_cannons_security_breach.material.obsidian": "Obsidienne",
+  "create_big_cannons_security_breach.material.steel": "Acier",
+  "create_big_cannons_security_breach.material.netherite": "Netherite",
+  "create_big_cannons_security_breach.material.fallback": "Par défaut",
+
+  "create_big_cannons_security_breach.message.repair_not_owner": "Seul le propriétaire peut réparer ce bloc.",
+  "create_big_cannons_security_breach.message.repaired_full": "Bloc entièrement réparé !",
+  "create_big_cannons_security_breach.message.repaired_partial": "Réparé : %s / %s PV (%s%%)",
+
+  "create_big_cannons_security_breach.command.player_only": "Cette commande doit être exécutée par un joueur ou avec des coordonnées.",
+  "create_big_cannons_security_breach.command.no_block": "Aucun bloc en vue dans un rayon de 16 blocs.",
+  "create_big_cannons_security_breach.command.not_targetable": "Le bloc %s n'est pas géré par CBC: Security Breach.",
+  "create_big_cannons_security_breach.command.inspect_result": "[CBC Breach] %s @ (%s) | PV : %s/%s (%s%%) | Matériau : %s | Propriétaire : %s",
+  "create_big_cannons_security_breach.command.cleared_radius": "[CBC Breach] Dégâts effacés sur %s bloc(s) dans un rayon de %s.",
+  "create_big_cannons_security_breach.command.cleared_all": "[CBC Breach] Dégâts effacés sur %s bloc(s) dans %s.",
+  "create_big_cannons_security_breach.command.status": "[CBC Breach] Actif : %s | Blocs endommagés : %s | Régénération : %s | Réparation : %s | Drops : %s",
+  "create_big_cannons_security_breach.command.reloaded": "[CBC Breach] Configuration et caches de blocs rechargés."
 }

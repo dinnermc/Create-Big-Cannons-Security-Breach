@@ -99,10 +99,10 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 
 dependencies {
-    // No compile-time dependencies on CBC or SC. The mixins are @Pseudo
-    // and SC is handled via vanilla NeoForge events, so this builds fine
-    // without either mod. For runtime testing, drop the mod jars into
-    // your run/ folder, or uncomment the repos above and the options
+    // No compile-time dependencies on CBC, Create, or SC. The mixins are @Pseudo
+    // and Create/SC integration uses cached reflection, so this builds cleanly
+    // without external mod jars. For runtime testing, drop the mod jars into
+    // your run/mods/ folder, or uncomment the repos above and the options
     // below with real versions from gradle.properties.
 
     // implementation("rbasamoyai:createbigcannons:${minecraft_version}-${cbc_version}") { transitive = false }

@@ -2,9 +2,13 @@
   "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach 配置",
 
   "create_big_cannons_security_breach.configuration.category.general": "常规",
+  "create_big_cannons_security_breach.configuration.category.munition_multipliers": "弹药倍率",
   "create_big_cannons_security_breach.configuration.category.damage_decay": "伤害衰减",
+  "create_big_cannons_security_breach.configuration.category.repair": "手动修复",
+  "create_big_cannons_security_breach.configuration.category.feedback": "反馈与 HUD",
   "create_big_cannons_security_breach.configuration.category.material_hp": "材料生命值",
   "create_big_cannons_security_breach.configuration.category.material_resistance": "材料抗爆性",
+  "create_big_cannons_security_breach.configuration.category.overrides": "自定义与黑名单",
 
   "create_big_cannons_security_breach.configuration.enabled": "启用",
   "create_big_cannons_security_breach.configuration.enabled.tooltip": "全局启用 CBC 对 Security Craft 方块的伤害",
@@ -16,16 +20,82 @@
   "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "对 SC 方块造成伤害所需的最小爆炸威力（越高 = 范围越紧）",
 
   "create_big_cannons_security_breach.configuration.directHitMultiplier": "直接命中倍率",
-  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "直接弹丸撞击伤害的全局倍率（实心弹、葡萄弹）",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "直接弹丸撞击伤害的全局倍率（实心弹、穿甲弹、机炮、霰弹）",
+
+  "create_big_cannons_security_breach.configuration.dropBlocksOnBreak": "破坏时掉落方块",
+  "create_big_cannons_security_breach.configuration.dropBlocksOnBreak.tooltip": "被火炮破坏的 Security Craft 方块是否掉落自身（Rust 风格 PvP 建议关闭）",
+
+  "create_big_cannons_security_breach.configuration.affectOwnableMachines": "影响功能型安保方块",
+  "create_big_cannons_security_breach.configuration.affectOwnableMachines.tooltip": "允许火炮破坏 Security Craft 功能方块（密码锁、扫描仪、密码门等）",
+
+  "create_big_cannons_security_breach.configuration.overrideExplosionResistance": "覆盖抗爆值",
+  "create_big_cannons_security_breach.configuration.overrideExplosionResistance.tooltip": "为 CBC 装甲检测覆盖 SC 方块爆炸抗性（若使用核弹模组请关闭）",
+
+  "create_big_cannons_security_breach.configuration.heShellMultiplier": "高爆弹 (HE) 倍率",
+  "create_big_cannons_security_breach.configuration.heShellMultiplier.tooltip": "高爆炮弹 (HE Shell) 的伤害倍率",
+
+  "create_big_cannons_security_breach.configuration.apShellMultiplier": "穿甲榴弹 (AP Shell) 倍率",
+  "create_big_cannons_security_breach.configuration.apShellMultiplier.tooltip": "穿甲榴弹 (AP Shell) 的伤害倍率",
+
+  "create_big_cannons_security_breach.configuration.apShotMultiplier": "穿甲实心弹 (AP Shot) 倍率",
+  "create_big_cannons_security_breach.configuration.apShotMultiplier.tooltip": "穿甲实心弹 (AP Shot) 的伤害倍率",
+
+  "create_big_cannons_security_breach.configuration.solidShotMultiplier": "实心弹倍率",
+  "create_big_cannons_security_breach.configuration.solidShotMultiplier.tooltip": "标准实心弹的伤害倍率",
+
+  "create_big_cannons_security_breach.configuration.mortarStoneMultiplier": "迫击石倍率",
+  "create_big_cannons_security_breach.configuration.mortarStoneMultiplier.tooltip": "迫击石的伤害倍率",
+
+  "create_big_cannons_security_breach.configuration.dropMortarMultiplier": "迫击炮弹倍率",
+  "create_big_cannons_security_breach.configuration.dropMortarMultiplier.tooltip": "Drop Mortar 炮弹的伤害倍率",
+
+  "create_big_cannons_security_breach.configuration.autocannonMultiplier": "自动机炮倍率",
+  "create_big_cannons_security_breach.configuration.autocannonMultiplier.tooltip": "自动机炮弹药（穿甲、高射、机枪）的伤害倍率",
+
+  "create_big_cannons_security_breach.configuration.shrapnelMultiplier": "霰弹 / 破片倍率",
+  "create_big_cannons_security_breach.configuration.shrapnelMultiplier.tooltip": "葡萄弹、榴霰弹和高射破片子抛射物的伤害倍率",
 
   "create_big_cannons_security_breach.configuration.damageDecayEnabled": "伤害衰减",
   "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "启用 SC 方块累积伤害随时间逐渐衰减",
+
+  "create_big_cannons_security_breach.configuration.decayGracePeriodTicks": "衰减保护期（刻）",
+  "create_big_cannons_security_breach.configuration.decayGracePeriodTicks.tooltip": "受击后开始自动恢复前需等待的刻数（20刻 = 1秒）",
 
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "衰减间隔（最小）",
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "裂纹等级降低的最小刻数（20刻 = 1秒）",
 
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "衰减间隔（最大）",
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "裂纹等级降低的最大刻数（20刻 = 1秒）",
+
+  "create_big_cannons_security_breach.configuration.decayPercentPerStep": "每次衰减恢复比例",
+  "create_big_cannons_security_breach.configuration.decayPercentPerStep.tooltip": "每次衰减步骤恢复的最大生命值比例（0.05 = 5%）",
+
+  "create_big_cannons_security_breach.configuration.repairEnabled": "启用手动修复",
+  "create_big_cannons_security_breach.configuration.repairEnabled.tooltip": "允许使用修复物品按住 Shift + 右键修复受损的 SC 方块",
+
+  "create_big_cannons_security_breach.configuration.repairOwnerOnly": "仅所有者可修复",
+  "create_big_cannons_security_breach.configuration.repairOwnerOnly.tooltip": "限制只有方块所有者可进行手动修复（创造/OP 始终允许）",
+
+  "create_big_cannons_security_breach.configuration.repairAmountPerClick": "每次点击修复生命值",
+  "create_big_cannons_security_breach.configuration.repairAmountPerClick.tooltip": "每次手动修复恢复的生命值",
+
+  "create_big_cannons_security_breach.configuration.repairCooldownTicks": "修复冷却（刻）",
+  "create_big_cannons_security_breach.configuration.repairCooldownTicks.tooltip": "每名玩家两次修复之间的最小刻数（20刻 = 1秒）",
+
+  "create_big_cannons_security_breach.configuration.repairItems": "修复物品列表",
+  "create_big_cannons_security_breach.configuration.repairItems.tooltip": "可用于修复受损 SC 方块的物品 ID（如 create:wrench）",
+
+  "create_big_cannons_security_breach.configuration.consumeRepairItem": "消耗修复物品",
+  "create_big_cannons_security_breach.configuration.consumeRepairItem.tooltip": "每次修复消耗 1 个物品（工具则消耗 1 点耐久）",
+
+  "create_big_cannons_security_breach.configuration.gogglesHudEnabled": "启用机械动力护目镜 HUD",
+  "create_big_cannons_security_breach.configuration.gogglesHudEnabled.tooltip": "佩戴 Create 工程师护目镜时显示方块生命值与完整度条",
+
+  "create_big_cannons_security_breach.configuration.impactParticlesEnabled": "启用命中粒子",
+  "create_big_cannons_security_breach.configuration.impactParticlesEnabled.tooltip": "SC 方块受损或突破时生成粒子效果",
+
+  "create_big_cannons_security_breach.configuration.impactSoundsEnabled": "启用命中音效",
+  "create_big_cannons_security_breach.configuration.impactSoundsEnabled.tooltip": "SC 方块受损或突破时播放音效",
 
   "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "玻璃生命值",
   "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "摧毁强化玻璃方块所需的生命值",
@@ -46,7 +116,7 @@
   "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "摧毁强化羊毛/地毯所需的生命值",
 
   "create_big_cannons_security_breach.configuration.reinforcedIronHp": "铁质生命值",
-  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "摧毁强化铁/金方块所需的生命值",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "摧毁强化铁/金/门方块所需的生命值",
 
   "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "钢质生命值",
   "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "摧毁强化钢方块所需的生命值",
@@ -82,7 +152,7 @@
   "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "强化羊毛/地毯的爆炸抗性",
 
   "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "铁质抗爆性",
-  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "强化铁/金的爆炸抗性",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "强化铁/金/门的爆炸抗性",
 
   "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "钢质抗爆性",
   "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "强化钢的爆炸抗性",
@@ -97,5 +167,42 @@
   "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "强化下界合金的爆炸抗性",
 
   "create_big_cannons_security_breach.configuration.fallbackResistance": "默认抗爆性",
-  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "未识别 SC 方块的默认爆炸抗性"
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "未识别 SC 方块的默认爆炸抗性",
+
+  "create_big_cannons_security_breach.configuration.customBlockHp": "自定义方块生命值",
+  "create_big_cannons_security_breach.configuration.customBlockHp.tooltip": "按 'modid:block_id=hp' 格式覆盖单个方块的生命值",
+
+  "create_big_cannons_security_breach.configuration.blacklistedBlocks": "黑名单方块",
+  "create_big_cannons_security_breach.configuration.blacklistedBlocks.tooltip": "永远不会受到火炮伤害的方块 ID 列表",
+
+  "create_big_cannons_security_breach.hud.integrity": "完整度: %s / %s HP (%s%%)",
+  "create_big_cannons_security_breach.hud.material": "材质: %s",
+  "create_big_cannons_security_breach.hud.owner": "所有者: %s",
+  "create_big_cannons_security_breach.hud.repair_hint": "按住 Shift + 右键修复",
+
+  "create_big_cannons_security_breach.material.glass": "玻璃",
+  "create_big_cannons_security_breach.material.powder": "粉末",
+  "create_big_cannons_security_breach.material.wool": "羊毛",
+  "create_big_cannons_security_breach.material.wood": "木质",
+  "create_big_cannons_security_breach.material.stone": "石质",
+  "create_big_cannons_security_breach.material.copper": "铜质",
+  "create_big_cannons_security_breach.material.iron": "铁质",
+  "create_big_cannons_security_breach.material.diamond": "钻石",
+  "create_big_cannons_security_breach.material.obsidian": "黑曜石",
+  "create_big_cannons_security_breach.material.steel": "钢质",
+  "create_big_cannons_security_breach.material.netherite": "下界合金",
+  "create_big_cannons_security_breach.material.fallback": "默认",
+
+  "create_big_cannons_security_breach.message.repair_not_owner": "只有所有者才能修复此方块。",
+  "create_big_cannons_security_breach.message.repaired_full": "方块已完全修复！",
+  "create_big_cannons_security_breach.message.repaired_partial": "已修复: %s / %s HP (%s%%)",
+
+  "create_big_cannons_security_breach.command.player_only": "此命令必须由玩家执行，或指定方块坐标。",
+  "create_big_cannons_security_breach.command.no_block": "16 格视线范围内未找到方块。",
+  "create_big_cannons_security_breach.command.not_targetable": "方块 %s 不在 CBC: Security Breach 管理范围内。",
+  "create_big_cannons_security_breach.command.inspect_result": "[CBC Breach] %s @ (%s) | HP: %s/%s (%s%%) | 材质: %s | 所有者: %s",
+  "create_big_cannons_security_breach.command.cleared_radius": "[CBC Breach] 已清除半径 %s 内 %s 个方块的伤害。",
+  "create_big_cannons_security_breach.command.cleared_all": "[CBC Breach] 已清除 %s 中 %s 个方块的伤害。",
+  "create_big_cannons_security_breach.command.status": "[CBC Breach] 启用: %s | 受损方块: %s | 衰减: %s | 修复: %s | 掉落: %s",
+  "create_big_cannons_security_breach.command.reloaded": "[CBC Breach] 已重新加载配置与方块缓存。"
 }

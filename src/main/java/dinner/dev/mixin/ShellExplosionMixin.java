@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ShellExplosionMixin {
     @Inject(method = "editBlock", at = @At("HEAD"), cancellable = true, remap = false)
     private void cbcSecurityBreach$onEditBlock(Level level, BlockPos pos, BlockState state, FluidState fluidState, float power, CallbackInfo ci) {
-        if (EditBlockHelper.handleEditBlock(level, pos, state, power, this)) {
+        if (EditBlockHelper.recordExplosionHit(level, pos, state, power, this)) {
             ci.cancel();
         }
     }

@@ -2,9 +2,13 @@
   "create_big_cannons_security_breach.configuration.title": "Create Big Cannons: Security Breach 設定",
 
   "create_big_cannons_security_breach.configuration.category.general": "一般",
+  "create_big_cannons_security_breach.configuration.category.munition_multipliers": "弾薬別倍率",
   "create_big_cannons_security_breach.configuration.category.damage_decay": "ダメージ減衰",
+  "create_big_cannons_security_breach.configuration.category.repair": "手動修復",
+  "create_big_cannons_security_breach.configuration.category.feedback": "演出・HUD",
   "create_big_cannons_security_breach.configuration.category.material_hp": "素材HP",
   "create_big_cannons_security_breach.configuration.category.material_resistance": "素材耐爆性",
+  "create_big_cannons_security_breach.configuration.category.overrides": "個別設定・ブラックリスト",
 
   "create_big_cannons_security_breach.configuration.enabled": "有効",
   "create_big_cannons_security_breach.configuration.enabled.tooltip": "CBCがSecurity Craftブロックに与えるダメージをグローバルに有効化",
@@ -16,16 +20,82 @@
   "create_big_cannons_security_breach.configuration.minExplosionPower.tooltip": "SCブロックにダメージを与える最小爆発威力（高いほど狭い範囲）",
 
   "create_big_cannons_security_breach.configuration.directHitMultiplier": "直撃倍率",
-  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "直接発射体衝撃ダメージのグローバル倍率（実体弾、グレープショット）",
+  "create_big_cannons_security_breach.configuration.directHitMultiplier.tooltip": "直接発射体衝撃ダメージのグローバル倍率（実体弾、AP、機関砲、散弾）",
+
+  "create_big_cannons_security_breach.configuration.dropBlocksOnBreak": "破壊時にブロックをドロップ",
+  "create_big_cannons_security_breach.configuration.dropBlocksOnBreak.tooltip": "破壊されたSecurity Craftブロックをアイテム化するか（Rust風PvPでは無効推奨）",
+
+  "create_big_cannons_security_breach.configuration.affectOwnableMachines": "所有機能ブロックを対象にする",
+  "create_big_cannons_security_breach.configuration.affectOwnableMachines.tooltip": "キーパッドやスキャナーなどSecurity Craftの機能ブロックにもダメージを許可",
+
+  "create_big_cannons_security_breach.configuration.overrideExplosionResistance": "爆発耐性を上書き",
+  "create_big_cannons_security_breach.configuration.overrideExplosionResistance.tooltip": "CBCの装甲検査用にSCブロックの爆発耐性を上書き（核爆発MOD使用時は無効推奨）",
+
+  "create_big_cannons_security_breach.configuration.heShellMultiplier": "HE弾倍率",
+  "create_big_cannons_security_breach.configuration.heShellMultiplier.tooltip": "榴弾（HE Shell）のダメージ倍率",
+
+  "create_big_cannons_security_breach.configuration.apShellMultiplier": "AP弾倍率",
+  "create_big_cannons_security_breach.configuration.apShellMultiplier.tooltip": "徹甲榴弾（AP Shell）のダメージ倍率",
+
+  "create_big_cannons_security_breach.configuration.apShotMultiplier": "AP実体弾倍率",
+  "create_big_cannons_security_breach.configuration.apShotMultiplier.tooltip": "徹甲実体弾（AP Shot）のダメージ倍率",
+
+  "create_big_cannons_security_breach.configuration.solidShotMultiplier": "実体弾倍率",
+  "create_big_cannons_security_breach.configuration.solidShotMultiplier.tooltip": "標準実体弾（Solid Shot）のダメージ倍率",
+
+  "create_big_cannons_security_breach.configuration.mortarStoneMultiplier": "迫撃石倍率",
+  "create_big_cannons_security_breach.configuration.mortarStoneMultiplier.tooltip": "迫撃石（Mortar Stone）のダメージ倍率",
+
+  "create_big_cannons_security_breach.configuration.dropMortarMultiplier": "迫撃砲弾倍率",
+  "create_big_cannons_security_breach.configuration.dropMortarMultiplier.tooltip": "ドロップ迫撃砲弾のダメージ倍率",
+
+  "create_big_cannons_security_breach.configuration.autocannonMultiplier": "機関砲倍率",
+  "create_big_cannons_security_breach.configuration.autocannonMultiplier.tooltip": "機関砲弾（AP、Flak、機銃）のダメージ倍率",
+
+  "create_big_cannons_security_breach.configuration.shrapnelMultiplier": "散弾・破片倍率",
+  "create_big_cannons_security_breach.configuration.shrapnelMultiplier.tooltip": "グレープショット、シュラプネル、Flak子弾のダメージ倍率",
 
   "create_big_cannons_security_breach.configuration.damageDecayEnabled": "ダメージ減衰",
   "create_big_cannons_security_breach.configuration.damageDecayEnabled.tooltip": "SCブロックの蓄積ダメージが時間とともに徐々に減衰するのを有効化",
+
+  "create_big_cannons_security_breach.configuration.decayGracePeriodTicks": "減衰開始までの猶予（ティック）",
+  "create_big_cannons_security_breach.configuration.decayGracePeriodTicks.tooltip": "被弾後に自動回復が始まるまでの待機ティック数（20ティック = 1秒）",
 
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMin": "減衰間隔（最小）",
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMin.tooltip": "ひび割れ段階減少間の最小ティック数（20ティック = 1秒）",
 
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMax": "減衰間隔（最大）",
   "create_big_cannons_security_breach.configuration.damageDecayIntervalMax.tooltip": "ひび割れ段階減少間の最大ティック数（20ティック = 1秒）",
+
+  "create_big_cannons_security_breach.configuration.decayPercentPerStep": "1回の回復割合",
+  "create_big_cannons_security_breach.configuration.decayPercentPerStep.tooltip": "減衰1回ごとに回復する最大HPの割合（0.05 = 5%）",
+
+  "create_big_cannons_security_breach.configuration.repairEnabled": "手動修復を有効化",
+  "create_big_cannons_security_breach.configuration.repairEnabled.tooltip": "修復アイテムでShift+右クリックして損傷したSCブロックを修復可能にする",
+
+  "create_big_cannons_security_breach.configuration.repairOwnerOnly": "所有者のみ修復可能",
+  "create_big_cannons_security_breach.configuration.repairOwnerOnly.tooltip": "手動修復をブロックの所有者のみに制限（クリエイティブ/OPは常に可）",
+
+  "create_big_cannons_security_breach.configuration.repairAmountPerClick": "1クリックあたりの修復HP",
+  "create_big_cannons_security_breach.configuration.repairAmountPerClick.tooltip": "1回の修復操作で回復するHP量",
+
+  "create_big_cannons_security_breach.configuration.repairCooldownTicks": "修復クールダウン（ティック）",
+  "create_big_cannons_security_breach.configuration.repairCooldownTicks.tooltip": "プレイヤーごとの修復間隔（20ティック = 1秒）",
+
+  "create_big_cannons_security_breach.configuration.repairItems": "修復アイテム一覧",
+  "create_big_cannons_security_breach.configuration.repairItems.tooltip": "SCブロックの修復に使用できるアイテムID（例: create:wrench）",
+
+  "create_big_cannons_security_breach.configuration.consumeRepairItem": "修復アイテムを消費",
+  "create_big_cannons_security_breach.configuration.consumeRepairItem.tooltip": "修復ごとにアイテム1個（ツールは耐久1）を消費する",
+
+  "create_big_cannons_security_breach.configuration.gogglesHudEnabled": "CreateゴーグルHUDを有効化",
+  "create_big_cannons_security_breach.configuration.gogglesHudEnabled.tooltip": "Createのエンジニアゴーグル装備時にブロックHPと耐久バーを表示",
+
+  "create_big_cannons_security_breach.configuration.impactParticlesEnabled": "衝撃パーティクル有効",
+  "create_big_cannons_security_breach.configuration.impactParticlesEnabled.tooltip": "SCブロック被弾・破壊時にパーティクルを表示",
+
+  "create_big_cannons_security_breach.configuration.impactSoundsEnabled": "衝撃サウンド有効",
+  "create_big_cannons_security_breach.configuration.impactSoundsEnabled.tooltip": "SCブロック被弾・破壊時に効果音を再生",
 
   "create_big_cannons_security_breach.configuration.reinforcedGlassHp": "ガラスのHP",
   "create_big_cannons_security_breach.configuration.reinforcedGlassHp.tooltip": "強化ガラスブロックを破壊するのに必要なHP",
@@ -46,7 +116,7 @@
   "create_big_cannons_security_breach.configuration.reinforcedWoolHp.tooltip": "強化羊毛/カーペットを破壊するのに必要なHP",
 
   "create_big_cannons_security_breach.configuration.reinforcedIronHp": "鉄のHP",
-  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "強化鉄/金ブロックを破壊するのに必要なHP",
+  "create_big_cannons_security_breach.configuration.reinforcedIronHp.tooltip": "強化鉄/金/ドアブロックを破壊するのに必要なHP",
 
   "create_big_cannons_security_breach.configuration.reinforcedSteelHp": "鋼のHP",
   "create_big_cannons_security_breach.configuration.reinforcedSteelHp.tooltip": "強化鋼ブロックを破壊するのに必要なHP",
@@ -82,7 +152,7 @@
   "create_big_cannons_security_breach.configuration.reinforcedWoolResistance.tooltip": "強化羊毛/カーペットの爆発耐性",
 
   "create_big_cannons_security_breach.configuration.reinforcedIronResistance": "鉄の耐爆性",
-  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "強化鉄/金の爆発耐性",
+  "create_big_cannons_security_breach.configuration.reinforcedIronResistance.tooltip": "強化鉄/金/ドアの爆発耐性",
 
   "create_big_cannons_security_breach.configuration.reinforcedSteelResistance": "鋼の耐爆性",
   "create_big_cannons_security_breach.configuration.reinforcedSteelResistance.tooltip": "強化鋼の爆発耐性",
@@ -97,5 +167,42 @@
   "create_big_cannons_security_breach.configuration.reinforcedNetheriteResistance.tooltip": "強化ネザライトの爆発耐性",
 
   "create_big_cannons_security_breach.configuration.fallbackResistance": "デフォルト耐爆性",
-  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "未認識SCブロックのデフォルト爆発耐性"
+  "create_big_cannons_security_breach.configuration.fallbackResistance.tooltip": "未認識SCブロックのデフォルト爆発耐性",
+
+  "create_big_cannons_security_breach.configuration.customBlockHp": "カスタムブロックHP",
+  "create_big_cannons_security_breach.configuration.customBlockHp.tooltip": "'modid:block_id=hp' 形式でブロック別HPを上書き",
+
+  "create_big_cannons_security_breach.configuration.blacklistedBlocks": "ブラックリストブロック",
+  "create_big_cannons_security_breach.configuration.blacklistedBlocks.tooltip": "大砲のダメージを一切受けないブロックID一覧",
+
+  "create_big_cannons_security_breach.hud.integrity": "耐久値: %s / %s HP (%s%%)",
+  "create_big_cannons_security_breach.hud.material": "素材: %s",
+  "create_big_cannons_security_breach.hud.owner": "所有者: %s",
+  "create_big_cannons_security_breach.hud.repair_hint": "Shift + 右クリックで修復",
+
+  "create_big_cannons_security_breach.material.glass": "ガラス",
+  "create_big_cannons_security_breach.material.powder": "粉体",
+  "create_big_cannons_security_breach.material.wool": "羊毛",
+  "create_big_cannons_security_breach.material.wood": "木材",
+  "create_big_cannons_security_breach.material.stone": "石",
+  "create_big_cannons_security_breach.material.copper": "銅",
+  "create_big_cannons_security_breach.material.iron": "鉄",
+  "create_big_cannons_security_breach.material.diamond": "ダイヤモンド",
+  "create_big_cannons_security_breach.material.obsidian": "黒曜石",
+  "create_big_cannons_security_breach.material.steel": "鋼",
+  "create_big_cannons_security_breach.material.netherite": "ネザライト",
+  "create_big_cannons_security_breach.material.fallback": "デフォルト",
+
+  "create_big_cannons_security_breach.message.repair_not_owner": "このブロックを修復できるのは所有者のみです。",
+  "create_big_cannons_security_breach.message.repaired_full": "ブロックを完全に修復しました！",
+  "create_big_cannons_security_breach.message.repaired_partial": "修復済み: %s / %s HP (%s%%)",
+
+  "create_big_cannons_security_breach.command.player_only": "このコマンドはプレイヤーとして実行するか座標を指定してください。",
+  "create_big_cannons_security_breach.command.no_block": "16ブロック以内に視線上のブロックが見つかりません。",
+  "create_big_cannons_security_breach.command.not_targetable": "ブロック %s は CBC: Security Breach の対象外です。",
+  "create_big_cannons_security_breach.command.inspect_result": "[CBC Breach] %s @ (%s) | HP: %s/%s (%s%%) | 素材: %s | 所有者: %s",
+  "create_big_cannons_security_breach.command.cleared_radius": "[CBC Breach] 半径 %s 内の %s 個のブロックのダメージをリセットしました。",
+  "create_big_cannons_security_breach.command.cleared_all": "[CBC Breach] %s 内の %s 個のブロックのダメージをリセットしました。",
+  "create_big_cannons_security_breach.command.status": "[CBC Breach] 有効: %s | 損傷ブロック: %s | 減衰: %s | 修復: %s | ドロップ: %s",
+  "create_big_cannons_security_breach.command.reloaded": "[CBC Breach] 設定とブロックキャッシュを再読み込みしました。"
 }

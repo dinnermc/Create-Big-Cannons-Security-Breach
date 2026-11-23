@@ -24,36 +24,38 @@
 
 ## What it does
 
-Security Craft blocks are normally immune to explosions. This mod gives them a hit pool, so a block needs several hits before it breaks:
+Security Craft blocks are normally immune to explosions. This mod gives them a Rust-style hit pool, so fortified blocks require sustained cannon fire before breaching:
 
-- Each block has HP based on its material group.
-- Every explosion or direct projectile hit adds damage. A block shows the vanilla break-progress animation (10 stages) as it takes damage.
-- When damage reaches its HP, the block breaks and drops.
-- Damage slowly decreases over time when the damage decay option is enabled, so partially damaged blocks can recover.
-- Block HP and accumulated damage are stored in the level save data and survive restarts.
-
-Blocks are matched by material group using the block's registry name. Blocks that match no group use the fallback HP and resistance values. Non-Security Craft blocks are not touched.
+- Each block has HP based on its material group (or custom per-block overrides).
+- Deduplicated explosion damage (one hit per detonation using the strongest blast ray) and direct kinetic hits scale by velocity and munition type.
+- Damaged blocks show the vanilla 10-stage break-progress overlay (persisted in world save data and synced automatically when loading chunks or reconnecting) plus impact/breach sounds and particles.
+- **Create Engineer's Goggles HUD:** Wearing Create's Engineer's Goggles shows a live integrity overlay (HP, progress bar, material tier, owner, and repair hint) when looking at fortified blocks.
+- **Manual Repair:** Owners can repair damaged blocks with `Shift + Right-Click` using configurable items (defaults: `create:wrench`, `minecraft:iron_ingot`).
+- **Damage Decay:** Partially damaged blocks slowly recover over time (only in loaded chunks to prevent lag).
+- **Admin Commands (`/cbcbreach`):** `inspect`, `clear <radius>`, `clearall`, `status`, and `reload`.
 
 ### Damage sources
 
-- Cannon explosions (shells, impact shells, mortar stones) that reach a Security Craft block.
-- Direct projectile hits (solid shot, grapeshot) against a Security Craft block. Direct hit damage scales with projectile speed.
+- Cannon explosions (`ShellExplosion`, `ImpactExplosion`, `MortarStoneExplosion`) with separate multipliers for HE shells, AP shells, mortar stones, and drop mortars.
+- Direct kinetic hits from big cannons (`AP Shot`, `AP Shell`, `Solid Shot`, `HE Shell`, `Mortar Stone`), autocannons, and `Grapeshot` / `Shrapnel` / `Flak` bursts.
 
 ### Material groups
-
-Blocks are grouped by name:
 
 - glass, powder (sand, gravel, dirt), wool, wood
 - stone, copper, iron, gold, diamond, obsidian, steel, netherite
 
 ## Configuration
 
-The config file is created at `config/create_big_cannons_security_breach-server.toml` on first run. It has four sections:
+The server config file is created at `config/create_big_cannons_security_breach-server.toml` (and automatically synchronized with clients in multiplayer). It has eight sections:
 
-- `general` - enable the mod, explosion damage multiplier, minimum explosion power, direct hit multiplier.
-- `damage_decay` - crack healing interval (in ticks) and whether it is enabled.
-- `material_hp` - HP for each material group and the fallback value.
-- `material_resistance` - explosion resistance for each material group and the fallback value.
+- `general` - enable the mod, global explosion/direct hit multipliers, `dropBlocksOnBreak` (`false` by default for Rust-style PvP), ownable machine toggle, resistance override toggle.
+- `munition_multipliers` - separate damage multipliers for HE, AP shell, AP shot, solid shot, mortar stone, drop mortar, autocannon, and shrapnel/grapeshot.
+- `damage_decay` - post-hit grace period (`decayGracePeriodTicks`), crack healing interval (in ticks), percentage healed per step, and toggle.
+- `repair` - manual repair toggle, owner-only restriction, HP per click, cooldown, allowed items, and item consumption toggle.
+- `feedback` - Create Goggles HUD toggle, impact/breach particles, and sound effects.
+- `material_hp` - HP for each material group and fallback.
+- `material_resistance` - explosion resistance for each material group and fallback.
+- `overrides` - `customBlockHp` (`modid:block=hp`) and `blacklistedBlocks`.
 
 ## License
 
